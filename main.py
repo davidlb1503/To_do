@@ -1,13 +1,13 @@
-
+l = []
 def create():
-    pass
-
+    newnote = input()
+    l.append(newnote)
+    
 def view():
-    pass
+    print(l)
 
 def delete():
-    pass
-
+    l.pop()
 
 def main():
     option = int(input())
